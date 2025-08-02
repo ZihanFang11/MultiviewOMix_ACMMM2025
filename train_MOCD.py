@@ -180,7 +180,7 @@ if __name__ == '__main__':
     fpr_values = [ 0.01, 0.05, 0.1, 0.5, 1]
 
 
-    args.file = './res/openness_res.txt'
+    args.file = 'openness_res.txt'
 
     for ii in select_dataset:
 
@@ -222,3 +222,4 @@ if __name__ == '__main__':
             shuffle=False)
 
         train_and_evaluate(args)
+
